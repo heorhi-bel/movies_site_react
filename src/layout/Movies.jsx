@@ -4,7 +4,7 @@ import Movie from './Movie'
 function Movies(props){
     const {movies} = props;
 
-    return <div className="movies">
+    return <div className="movies container">
         {movies.map(movie => (
             <Movie key={movie.imbdID} {...movie} />
         ))}

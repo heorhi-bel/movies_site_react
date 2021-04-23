@@ -1,7 +1,7 @@
 function Movie(props){
     return(
-        <div className="row" id={props.Id}>
-            <div className="col s12 m7">
+        // <div className="row" id={props.Id}>
+            <div className="col s12 m7 l3 xl2">
                 <div className="card">
                     <div className="card-image">
                         <img src={props.Poster} />
@@ -16,7 +16,7 @@ function Movie(props){
                     </div>
                 </div>
             </div>
-        </div>
+        // </div> 
     )
 }
 
