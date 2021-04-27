@@ -31,3 +31,14 @@ nav{
   width: 100%;
   background: rgba(0, 0, 0, 0.35);
 }
+
+.btn-align{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.filters{
+  display: flex;
+  justify-content: space-around;
+}

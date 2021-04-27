@@ -19,7 +19,7 @@ function Movie(props){
                     <div className="card">
                         <div className="card-image">
                             <img src={props.Poster} />
-                            <span className="card-title title-bg"> {props.Title} </span>
+                            <span className="card-title"> {props.Title} </span>
                         </div>
                         <div className="card-content">
                             <p> {props.Type} </p>
