@@ -74,7 +74,6 @@ class Search extends React.Component {
                         <p>
                             <label>
                                 <input
-                                    className="with-gap"
                                     name="group1"
                                     type="radio"
                                     data-type="series"
