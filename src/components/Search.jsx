@@ -42,7 +42,7 @@ class Search extends React.Component {
                             this.props.searchMovies(this.state.search)
                         }
                     >
-                        SEARCH!
+                        SEARCH
                     </button>
 
                     <div className="filters">
