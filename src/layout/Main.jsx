@@ -33,13 +33,16 @@ class Main extends React.Component {
     };
 
     render() {
-        return !this.state.loading ? (
+        return (
             <main className="container content">
                 <Search searchMovies={this.searchMovies} />
-                <Movies movies={this.state.movies} />
+
+                {!this.state.loading ? (
+                    <Movies movies={this.state.movies} />
+                ) : (
+                    <Preloader />
+                )}
             </main>
-        ) : (
-            <Preloader />
         );
     }
 }
