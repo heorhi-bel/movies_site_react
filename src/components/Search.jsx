@@ -45,7 +45,7 @@ class Search extends React.Component {
                         SEARCH!
                     </button>
 
-                    <form action="#" className="filters">
+                    <div className="filters">
                         <p>
                             <label>
                                 <input
@@ -68,7 +68,7 @@ class Search extends React.Component {
                                     onChange={this.handleType}
                                     checked={this.state.type === "movie"}
                                 />
-                                <span>movie</span>
+                                <span>movies only</span>
                             </label>
                         </p>
                         <p>
@@ -81,10 +81,10 @@ class Search extends React.Component {
                                     onChange={this.handleType}
                                     checked={this.state.type === "series"}
                                 />
-                                <span>series</span>
+                                <span>series only</span>
                             </label>
                         </p>
-                    </form>
+                    </div>
                 </div>
             </div>
         );
